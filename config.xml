@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="app.pokemon_view.com" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>pokemon_view</name>
+<widget id="app.hometrack.com" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>HomeTrack</name>
     <description>
-        Just an Alpha App to test some functions
+        App to take care of small day to day things
     </description>
-    <author email="dragonair2311@gmail.com" href="app.pokemon_view.com">
+    <author email="dragonair2311@gmail.com" href="app.hometrack.com">
         Cyatrosi
     </author>
     <content src="index.html" />
