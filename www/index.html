@@ -1,0 +1,105 @@
+<html>
+<head>
+	<title>DiDi Tracker</title>
+	<link rel = "stylesheet" href = "css/index.css">
+	<script src = "js/index.js"></script>
+</head>
+<body onload = "init();">
+	<div class = "container">
+		<div></div>
+		<div class = "head">
+			<div class = "menu-image"><img src = "img/menu.png" width="28px" height="28px"></div>
+			<div></div>
+			<div><b>Track Your Maid's Leaves</b></div>
+			<div onclick = "reset_data('leave')" class = "menu-image"><img src = "img/delete.png" width="28px" height="28px"></div>
+			<div></div>
+		</div>
+		<div class = "display">
+			<div class = "row header">Missed a meal ?</div>
+			<div class = "row idk">
+				<div class = "row"><button onclick = "meal(this)" id = "breakfast" class = "button"><b>Breakfast</b></button></div>
+				<div class = "row"><button onclick = "meal(this)" id = "dinner" class = "button"><b>Dinner</b></button></div>										
+			</div>
+		</div>
+		<div class = "panel">
+			<div onclick = "month_change('cur')" id = "leave_p" class = "leaves">
+				<div></div>
+				<div style = "font-size: 19px;"><b>Leaves</b></div>
+				<div id = "leave">0</div>
+				<div id = "leave_s"></div>
+				<div id = "leave_sal"></div>
+			</div>
+			<div onclick = "month_change('prev')"  id = "leave_prev_p" class = "leaves">				
+				<div></div>
+				<div style = "font-size: 19px;"><b>Leaves</b></div>
+				<div id = "leave_prev">0</div>
+				<div id = "leave_prev_s"></div>
+				<div id = "leave_prev_sal"></div>
+			</div>
+			<div>B</div>
+		</div>
+		<div class = "calander">
+			<table class = "cal">
+				<tr class = "monthyear" border="collapse">
+					<td id = "monthyear" colspan = "7">										
+					</td>
+				</tr>
+				<tr class = "days">
+					<td>S</td>
+					<td>M</td>
+					<td>T</td>
+					<td>W</td>
+					<td>T</td>
+					<td>F</td>
+					<td>S</td>
+				</tr>
+				<tr class = "dates">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class = "dates">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class = "dates">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class = "dates">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr class = "dates">
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>					
+			</table>
+		</div>
+	</div>
+</body>
+</html>
